@@ -99,7 +99,7 @@
    "test": "plxnative_modules::app::bridge::home_retention_tests::home_worker_results_cross_the_addressed_dispatcher_ingest_once"
   }
  ],
- "generated": "2026-11-16T23:36:11Z",
+ "generated": "2026-11-16T23:54:06Z",
  "metrics": [
   {
    "change30_pct": 37.9,
@@ -632,11 +632,6 @@
    "change_pct": 20.2,
    "commits": [
     {
-     "pr": 1357,
-     "sha": "db0125d55",
-     "title": "Site video: fetch the pinned FFmpeg from this repository's mirror first"
-    },
-    {
      "pr": 1358,
      "sha": "6f2c15a54",
      "title": "refactor(sans-io): complete machine input and effect boundaries"
@@ -679,6 +674,11 @@
     {
      "pr": null,
      "sha": "ef6054f3e",
+     "title": "Fix translations that are too long"
+    },
+    {
+     "pr": null,
+     "sha": "796379ff2",
      "title": "Fix translations that are too long"
     }
    ],
