@@ -1,4 +1,4 @@
-{"updated":"2026-11-17T20:56:26Z",
+{"updated":"2026-11-17T21:04:43Z",
 "ci":[
 {"id":32424110197,"at":"2026-08-20T22:24:27Z","sha":"360f904f0","title":"tests: fps:home-acct-glass had a floor it never once met","jobs":{"cross-build (armv7) + artifact assertions":91,"host checks (NOT a device gate)":100},"pr":null,"conclusion":"success","attempt":1},
 {"id":32482025443,"at":"2026-08-21T12:28:09Z","sha":"825cca60b","title":"glass: the up pass's radius was an accident of one allocation","jobs":{"host checks (NOT a device gate)":107,"cross-build (armv7) + artifact assertions":96},"pr":null,"conclusion":"success","attempt":1},
@@ -5097,7 +5097,8 @@
 {"id":43973064933,"at":"2026-11-16T22:45:23Z","sha":"c5d727d04","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":457,"macOS tests against bundled FFmpeg and ASS":269,"Windows launcher syntax":23},"failed":["macOS simulator build + launch"]},
 {"id":43994483235,"at":"2026-11-17T01:17:51Z","sha":"c2d2ce69c","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":329,"Windows launcher syntax":20,"Linux simulator build + launch":307,"macOS tests against bundled FFmpeg and ASS":283}},
 {"id":44060962943,"at":"2026-11-17T10:01:37Z","sha":"cd9f3784b","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Windows launcher syntax":18,"Linux simulator build + launch":353}},
-{"id":44078211718,"at":"2026-11-17T11:54:27Z","sha":"15fc8315c","title":"Temporary workaround for wrongly asserted CLDR rules","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":347,"Windows launcher syntax":17,"macOS tests against bundled FFmpeg and ASS":142}}
+{"id":44078211718,"at":"2026-11-17T11:54:27Z","sha":"15fc8315c","title":"Temporary workaround for wrongly asserted CLDR rules","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":347,"Windows launcher syntax":17,"macOS tests against bundled FFmpeg and ASS":142}},
+{"id":44173350229,"at":"2026-11-17T20:49:30Z","sha":"aa5ed7b62","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":305,"macOS tests against bundled FFmpeg and ASS":133,"Windows launcher syntax":22}}
 ],
 "nightly":[
 {"id":35412511191,"at":"2026-09-19T01:23:39Z","sha":"6d0599e36","title":"ci: nightly runs as a dry run on the pull requests that change it","pr":140,"event":"pull_request","conclusion":"failure","attempt":1,"jobs":{"plan today's nightly":10},"failed":["ARM build + gates / build + verify"]},
