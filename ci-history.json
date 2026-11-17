@@ -1,4 +1,4 @@
-{"updated":"2026-11-16T23:54:00Z",
+{"updated":"2026-11-17T01:23:33Z",
 "ci":[
 {"id":32424110197,"at":"2026-08-20T22:24:27Z","sha":"360f904f0","title":"tests: fps:home-acct-glass had a floor it never once met","jobs":{"cross-build (armv7) + artifact assertions":91,"host checks (NOT a device gate)":100},"pr":null,"conclusion":"success","attempt":1},
 {"id":32482025443,"at":"2026-08-21T12:28:09Z","sha":"825cca60b","title":"glass: the up pass's radius was an accident of one allocation","jobs":{"host checks (NOT a device gate)":107,"cross-build (armv7) + artifact assertions":96},"pr":null,"conclusion":"success","attempt":1},
@@ -5090,7 +5090,8 @@
 {"id":43426236465,"at":"2026-11-13T12:33:56Z","sha":"ed3c72066","title":"Preview: a refused trailer's report names which condition refused it","pr":1373,"conclusion":"success","attempt":1,"jobs":{"Linux simulator build + launch":238,"macOS tests against bundled FFmpeg and ASS":231,"Windows launcher syntax":19,"macOS simulator build + launch":124}},
 {"id":43427301007,"at":"2026-11-13T12:41:23Z","sha":"bd5e24c32","title":"URI exported-window admission: say which run shows the override armed","pr":1377,"event":"pull_request","conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":213,"Windows launcher syntax":17,"macOS tests against bundled FFmpeg and ASS":223,"Linux simulator build + launch":335}},
 {"id":43427474760,"at":"2026-11-13T12:42:38Z","sha":"fbec5ed32","title":"webOS version: read /usr/lib/os-release when nyx's os_info.json is unreadable","pr":1376,"conclusion":"success","attempt":1,"jobs":{"Windows launcher syntax":17,"macOS simulator build + launch":180,"macOS tests against bundled FFmpeg and ASS":133,"Linux simulator build + launch":357}},
-{"id":43973064933,"at":"2026-11-16T22:45:23Z","sha":"c5d727d04","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":457,"macOS tests against bundled FFmpeg and ASS":269,"Windows launcher syntax":23},"failed":["macOS simulator build + launch"]}
+{"id":43973064933,"at":"2026-11-16T22:45:23Z","sha":"c5d727d04","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":457,"macOS tests against bundled FFmpeg and ASS":269,"Windows launcher syntax":23},"failed":["macOS simulator build + launch"]},
+{"id":43994483235,"at":"2026-11-17T01:17:51Z","sha":"c2d2ce69c","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":329,"Windows launcher syntax":20,"Linux simulator build + launch":307,"macOS tests against bundled FFmpeg and ASS":283}}
 ],
 "nightly":[
 {"id":35412511191,"at":"2026-09-19T01:23:39Z","sha":"6d0599e36","title":"ci: nightly runs as a dry run on the pull requests that change it","pr":140,"event":"pull_request","conclusion":"failure","attempt":1,"jobs":{"plan today's nightly":10},"failed":["ARM build + gates / build + verify"]},
