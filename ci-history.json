@@ -1,4 +1,4 @@
-{"updated":"2026-11-18T18:40:04Z",
+{"updated":"2026-11-18T18:40:28Z",
 "ci":[
 {"id":32424110197,"at":"2026-08-20T22:24:27Z","sha":"360f904f0","title":"tests: fps:home-acct-glass had a floor it never once met","jobs":{"cross-build (armv7) + artifact assertions":91,"host checks (NOT a device gate)":100},"pr":null,"conclusion":"success","attempt":1},
 {"id":32482025443,"at":"2026-08-21T12:28:09Z","sha":"825cca60b","title":"glass: the up pass's radius was an accident of one allocation","jobs":{"host checks (NOT a device gate)":107,"cross-build (armv7) + artifact assertions":96},"pr":null,"conclusion":"success","attempt":1},
@@ -5344,7 +5344,7 @@
 {"id":42424516079,"at":"2026-11-07T23:16:50Z","sha":"433385380","title":"CI snapshot of integ/uri-first at bd398bd17 (after #1275)","pr":1231,"event":"pull_request","conclusion":"success","attempt":1,"jobs":{"plan today's nightly":25,"ARM build + gates / build + verify":1176,"publish nightly prerelease":19}},
 {"id":42433740473,"at":"2026-11-08T01:19:20Z","sha":"4a4e362ac","title":"P7: release-guard refuses a single-backend build for the stable and nightly ids","pr":1276,"event":"pull_request","conclusion":"success","attempt":1,"jobs":{"plan today's nightly":26,"ARM build + gates / build + verify":1100,"publish nightly prerelease":25}}
 ],
-"cancelled":{"2026-11-16":{"push":1,"pull_request":0},"2026-11-18":{"push":1,"pull_request":0}},
+"cancelled":{"2026-11-16":{"push":1,"pull_request":0},"2026-11-18":{"push":2,"pull_request":0}},
 "daily":[
 {"day":"2026-08-02","wf":"ci","event":"push","runs":1,"failed":1,"jobs":{"host checks (NOT a device gate)":119},"longest":119},
 {"day":"2026-08-03","wf":"ci","event":"push","runs":1,"failed":1,"jobs":{"host checks (NOT a device gate)":118},"longest":118},
