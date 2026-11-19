@@ -8,7 +8,8 @@
     "platform/src/lib.rs": "0836abd640849f56afbe66af39632b28648609e6464fda0bd4c51087c1070acb",
     "platform/src/i18n/mod.rs": [
       "40a13d07a43c772b10587e510a69502684abfa1f582ce355b22fd935a8c46f45",
-      "2c978e3aa3a9215a2e96ebaec9dd5ae3cf3ee85cf1afb43a36b5f42f17ff4d52"
+      "2c978e3aa3a9215a2e96ebaec9dd5ae3cf3ee85cf1afb43a36b5f42f17ff4d52",
+      "ce96fd4e5b7b9465c243aef553f147219d4ebb56a2f8df55d360952af33a59f5"
     ],
     "platform/build.rs": "58a7a2f8d8851b995648f40fb0a179c3ae743fb0e4e92dd3e19b93f9b86940c8",
     "platform/build_support/catalog.rs": "b02769b2de34bf6cf53a60d05bc9fc3080e6012778e30b400b13f772b43f7083",
@@ -82,7 +83,8 @@
     "PR1366: PressRead identity/live/active and owned-present sibling/test modules; canonical machine child and doc-only u32 newtype producer unchanged",
     "PR1385: Canon byte-feed loops inlined (impl Canon and canon_tests only, FNV-1a byte stream unchanged); newtype macro and its ten u32 invocations unchanged",
     "UI FIFO on PR1385: AppCommandId(u64), AppCommandOutcome and generic AppCommand<F,R> appended after unchanged doc-only newtype producer and its ten u32 invocations; none certified as generated declarations",
-    "Owned runtime: HoldHintRead/Event, ModalRead, PageImageRead, Cx/Fx projections, AppEffect partition and PresentationAuthority/Receipt added outside the unchanged doc-only newtype macro and ten u32 invocations; Arc-bearing receipts and effect contracts are not certified; canonical include namespace unchanged"
+    "Owned runtime: HoldHintRead/Event, ModalRead, PageImageRead, Cx/Fx projections, AppEffect partition and PresentationAuthority/Receipt added outside the unchanged doc-only newtype macro and ten u32 invocations; Arc-bearing receipts and effect contracts are not certified; canonical include namespace unchanged",
+    "Croatian months: i18n/mod.rs adds (Language::Hr, MonthWidth::Medium/Long) arms and HR_MEDIUM/HR_GENITIVE string tables; include line, Preference/Language enums and producer unchanged"
   ],
   "assumptions": [
     "Offline source-backed unit-enum proof; certificate changes require source review.",

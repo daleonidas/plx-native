@@ -13,7 +13,7 @@ import re
 from readonly_dependencies import _local_sha, _sha, _json, _manifest_paths, _configs, _workspace_hashes, WORKSPACE_HASHING
 
 CERTIFICATE_PATH = Path(__file__).with_name('proofs') / 'platform-generated-enums.json'
-CERTIFICATE_SHA256 = '541c1582de8d0f1a5f575d150fb01e2c103b71916b710738f43490c0d24f3b0b'
+CERTIFICATE_SHA256 = '414b1c06b9f84ce907edb8e160fff5e955fb16ad33e2c1d8ee9925bff1fdcd8b'
 SOURCES = ['platform/Cargo.toml', 'platform/src/lib.rs', 'platform/src/i18n/mod.rs',
            'platform/build.rs', 'platform/build_support/catalog.rs', 'build_support/install_identities.rs',
            'machine/src/lib.rs', 'machine/src/machine.rs']
@@ -34,7 +34,10 @@ MACHINE_LIB_SOURCES = ['105afdbb05fb762e6752cef260b6d928b1d828993350aaa71651f96c
 
 
 I18N_SOURCES = ['40a13d07a43c772b10587e510a69502684abfa1f582ce355b22fd935a8c46f45',
-                '2c978e3aa3a9215a2e96ebaec9dd5ae3cf3ee85cf1afb43a36b5f42f17ff4d52']
+                '2c978e3aa3a9215a2e96ebaec9dd5ae3cf3ee85cf1afb43a36b5f42f17ff4d52',
+                # Croatian month data: two (Language::Hr, MonthWidth) arms and the
+                # HR_MEDIUM/HR_GENITIVE tables; the include line is unchanged.
+                'ce96fd4e5b7b9465c243aef553f147219d4ebb56a2f8df55d360952af33a59f5']
 
 def source_hashes(root):
     sources = {p: _local_sha((root / p).read_bytes()) for p in SOURCES}
@@ -73,7 +76,8 @@ def produce_certificate(root):
                        'PR1366: PressRead identity/live/active and owned-present sibling/test modules; canonical machine child and doc-only u32 newtype producer unchanged',
                        'PR1385: Canon byte-feed loops inlined (impl Canon and canon_tests only, FNV-1a byte stream unchanged); newtype macro and its ten u32 invocations unchanged',
                        'UI FIFO on PR1385: AppCommandId(u64), AppCommandOutcome and generic AppCommand<F,R> appended after unchanged doc-only newtype producer and its ten u32 invocations; none certified as generated declarations',
-                       'Owned runtime: HoldHintRead/Event, ModalRead, PageImageRead, Cx/Fx projections, AppEffect partition and PresentationAuthority/Receipt added outside the unchanged doc-only newtype macro and ten u32 invocations; Arc-bearing receipts and effect contracts are not certified; canonical include namespace unchanged'],
+                       'Owned runtime: HoldHintRead/Event, ModalRead, PageImageRead, Cx/Fx projections, AppEffect partition and PresentationAuthority/Receipt added outside the unchanged doc-only newtype macro and ten u32 invocations; Arc-bearing receipts and effect contracts are not certified; canonical include namespace unchanged',
+                       'Croatian months: i18n/mod.rs adds (Language::Hr, MonthWidth::Medium/Long) arms and HR_MEDIUM/HR_GENITIVE string tables; include line, Preference/Language enums and producer unchanged'],
             'assumptions': __doc__.splitlines()}
 
 
