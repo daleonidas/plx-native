@@ -1,4 +1,4 @@
-{"updated":"2026-11-22T23:15:59Z",
+{"updated":"2026-11-22T23:18:24Z",
 "ci":[
 {"id":32676072637,"at":"2026-08-24T00:15:02Z","sha":"8ea4bf289","title":"Revert \"sources: an address you can type, and a seam for whoever dials it\"","pr":60,"event":"pull_request","conclusion":"success","attempt":1,"jobs":{"host checks (NOT a device gate)":108,"cross-build (armv7) + artifact assertions":95}},
 {"id":32676213065,"at":"2026-08-24T00:17:27Z","sha":"36e21dfd6","title":"sources: render server state and fix the signed-in owner chip","jobs":{"cross-build (armv7) + artifact assertions":107,"host checks (NOT a device gate)":102},"pr":60,"conclusion":"success","attempt":1},
@@ -5054,7 +5054,8 @@
 {"id":44078211718,"at":"2026-11-17T11:54:27Z","sha":"15fc8315c","title":"Temporary workaround for wrongly asserted CLDR rules","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":347,"Windows launcher syntax":17,"macOS tests against bundled FFmpeg and ASS":142}},
 {"id":44173350229,"at":"2026-11-17T20:49:30Z","sha":"aa5ed7b62","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"failure","attempt":1,"jobs":{"Linux simulator build + launch":305,"macOS tests against bundled FFmpeg and ASS":133,"Windows launcher syntax":22}},
 {"id":44495112509,"at":"2026-11-19T09:17:53Z","sha":"fa59bc7c7","title":"Merge branch 'plxnative:main' into main","pr":null,"conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":116,"Windows launcher syntax":20,"Linux simulator build + launch":270,"macOS tests against bundled FFmpeg and ASS":207}},
-{"id":44515681777,"at":"2026-11-19T11:32:07Z","sha":"51a156adf","title":"Implement fixes for failing tests","pr":null,"conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":297,"Windows launcher syntax":21,"macOS tests against bundled FFmpeg and ASS":131,"Linux simulator build + launch":252}}
+{"id":44515681777,"at":"2026-11-19T11:32:07Z","sha":"51a156adf","title":"Implement fixes for failing tests","pr":null,"conclusion":"success","attempt":1,"jobs":{"macOS simulator build + launch":297,"Windows launcher syntax":21,"macOS tests against bundled FFmpeg and ASS":131,"Linux simulator build + launch":252}},
+{"id":45081576479,"at":"2026-11-22T23:08:11Z","sha":"a447c6552","title":"The simulator's Cargo feature is named `sim` (W8c-4)","pr":1518,"conclusion":"success","attempt":1,"jobs":{"Linux simulator build + launch":394,"Windows launcher syntax":20,"macOS tests against bundled FFmpeg and ASS":502,"macOS simulator build + launch":598}}
 ],
 "nightly":[
 {"id":35412511191,"at":"2026-09-19T01:23:39Z","sha":"6d0599e36","title":"ci: nightly runs as a dry run on the pull requests that change it","pr":140,"event":"pull_request","conclusion":"failure","attempt":1,"jobs":{"plan today's nightly":10},"failed":["ARM build + gates / build + verify"]},
