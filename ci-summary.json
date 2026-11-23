@@ -99,8 +99,29 @@
    "test": "plxnative_modules::app::bridge::home_retention_tests::home_worker_results_cross_the_addressed_dispatcher_ingest_once"
   }
  ],
- "generated": "2026-11-23T11:30:06Z",
+ "generated": "2026-11-23T11:31:22Z",
  "metrics": [
+  {
+   "change30_pct": 67.0,
+   "change7_pct": 67.4,
+   "d30": 197,
+   "delta30": 132,
+   "delta7": 132.5,
+   "group": "ci",
+   "id": "sim|macOS simulator build + launch",
+   "kind": "job",
+   "label": "Simulator CI: macOS simulator build + launch",
+   "n_now": 5,
+   "n_prev": 40,
+   "now": 329,
+   "prev7": 196.5,
+   "shown": true,
+   "state": "worse",
+   "state30": "worse",
+   "threshold_abs": 30.0,
+   "threshold_pct": 20.0,
+   "unit": "s"
+  },
   {
    "change30_pct": 55.4,
    "change7_pct": 64.2,
@@ -119,27 +140,6 @@
    "state": "worse",
    "state30": "worse",
    "threshold_abs": 20.0,
-   "threshold_pct": 20.0,
-   "unit": "s"
-  },
-  {
-   "change30_pct": 58.9,
-   "change7_pct": 59.3,
-   "d30": 197,
-   "delta30": 116.0,
-   "delta7": 116.5,
-   "group": "ci",
-   "id": "sim|macOS simulator build + launch",
-   "kind": "job",
-   "label": "Simulator CI: macOS simulator build + launch",
-   "n_now": 4,
-   "n_prev": 40,
-   "now": 313.0,
-   "prev7": 196.5,
-   "shown": true,
-   "state": "worse",
-   "state30": "worse",
-   "threshold_abs": 30.0,
    "threshold_pct": 20.0,
    "unit": "s"
   },
@@ -165,18 +165,18 @@
    "unit": "s"
   },
   {
-   "change30_pct": 38.4,
-   "change7_pct": -0.2,
+   "change30_pct": 54.1,
+   "change7_pct": 11.1,
    "d30": 331,
-   "delta30": 127,
-   "delta7": -1,
+   "delta30": 179,
+   "delta7": 51,
    "group": "ci",
    "id": "push_wait",
    "kind": "wait",
    "label": "Wait after merge",
    "n_now": 3,
    "n_prev": 47,
-   "now": 458,
+   "now": 510,
    "prev7": 459,
    "shown": true,
    "state": "flat",
@@ -291,19 +291,19 @@
    "unit": "s"
   },
   {
-   "change30_pct": 37.2,
-   "change7_pct": 3.5,
+   "change30_pct": 44.2,
+   "change7_pct": 8.7,
    "d30": 2074.0,
-   "delta30": 771.0,
-   "delta7": 96.5,
+   "delta30": 916.0,
+   "delta7": 240,
    "group": "ci",
    "id": "minutes",
    "kind": "cost",
    "label": "Runner time per push",
    "n_now": 7,
-   "n_prev": 54,
-   "now": 2845,
-   "prev7": 2748.5,
+   "n_prev": 55,
+   "now": 2990,
+   "prev7": 2750,
    "shown": true,
    "state": "flat",
    "state30": "worse",
@@ -354,18 +354,18 @@
    "unit": "s"
   },
   {
-   "change30_pct": 10.1,
-   "change7_pct": -14.3,
+   "change30_pct": 17.2,
+   "change7_pct": -8.8,
    "d30": 262.0,
-   "delta30": 26.5,
-   "delta7": -48.0,
+   "delta30": 45.0,
+   "delta7": -29.5,
    "group": "ci",
    "id": "sim|Linux simulator build + launch",
    "kind": "job",
    "label": "Simulator CI: Linux simulator build + launch",
-   "n_now": 4,
+   "n_now": 5,
    "n_prev": 40,
-   "now": 288.5,
+   "now": 307,
    "prev7": 336.5,
    "shown": true,
    "state": "flat",
@@ -375,18 +375,18 @@
    "unit": "s"
   },
   {
-   "change30_pct": 73.1,
-   "change7_pct": 2.5,
+   "change30_pct": 100.0,
+   "change7_pct": 18.4,
    "d30": 141.5,
-   "delta30": 103.5,
-   "delta7": 6.0,
+   "delta30": 141.5,
+   "delta7": 44.0,
    "group": "ci",
    "id": "sim|macOS tests against bundled FFmpeg and ASS",
    "kind": "job",
    "label": "Simulator CI: macOS tests against bundled FFmpeg and ASS",
-   "n_now": 4,
+   "n_now": 5,
    "n_prev": 40,
-   "now": 245.0,
+   "now": 283,
    "prev7": 239.0,
    "shown": true,
    "state": "flat",
@@ -468,9 +468,9 @@
    "id": "sim|Windows launcher syntax",
    "kind": "job",
    "label": "Simulator CI: Windows launcher syntax",
-   "n_now": 4,
+   "n_now": 5,
    "n_prev": 40,
-   "now": 20.0,
+   "now": 20,
    "prev7": 19.0,
    "shown": false,
    "state": "flat",
@@ -566,6 +566,42 @@
  ],
  "regressions": [
   {
+   "change_pct": 67.4,
+   "commits": [
+    {
+     "pr": null,
+     "sha": "fa59bc7c7",
+     "title": "Merge branch 'plxnative:main' into main"
+    },
+    {
+     "pr": null,
+     "sha": "51a156adf",
+     "title": "Implement fixes for failing tests"
+    },
+    {
+     "pr": null,
+     "sha": "742a86b82",
+     "title": "Claude: fix hashes"
+    },
+    {
+     "pr": 1518,
+     "sha": "a447c6552",
+     "title": "The simulator's Cargo feature is named `sim` (W8c-4)"
+    },
+    {
+     "pr": 1519,
+     "sha": "bae42ccd9",
+     "title": "Build Samsung SUPER ALPHA packages in the shared nightly"
+    }
+   ],
+   "from": 196.5,
+   "id": "sim|macOS simulator build + launch",
+   "label": "Simulator CI: macOS simulator build + launch",
+   "since": "2026-11-19",
+   "threshold_pct": 20.0,
+   "to": 329
+  },
+  {
    "change_pct": 64.2,
    "commits": [
     {
@@ -625,42 +661,6 @@
    "since": "2026-11-12",
    "threshold_pct": 20.0,
    "to": 317
-  },
-  {
-   "change_pct": 59.3,
-   "commits": [
-    {
-     "pr": null,
-     "sha": "fa59bc7c7",
-     "title": "Merge branch 'plxnative:main' into main"
-    },
-    {
-     "pr": null,
-     "sha": "51a156adf",
-     "title": "Implement fixes for failing tests"
-    },
-    {
-     "pr": null,
-     "sha": "742a86b82",
-     "title": "Claude: fix hashes"
-    },
-    {
-     "pr": 1518,
-     "sha": "a447c6552",
-     "title": "The simulator's Cargo feature is named `sim` (W8c-4)"
-    },
-    {
-     "pr": 1519,
-     "sha": "bae42ccd9",
-     "title": "Build Samsung SUPER ALPHA packages in the shared nightly"
-    }
-   ],
-   "from": 196.5,
-   "id": "sim|macOS simulator build + launch",
-   "label": "Simulator CI: macOS simulator build + launch",
-   "since": "2026-11-19",
-   "threshold_pct": 20.0,
-   "to": 313.0
   }
  ],
  "schema": 2,
@@ -679,21 +679,21 @@
   },
   {
    "group": "ci",
+   "id": "sim|macOS simulator build + launch",
+   "label": "Simulator CI: macOS simulator build + launch",
+   "now": 329
+  },
+  {
+   "group": "ci",
    "id": "ci|host python/shell/C gates",
    "label": "CI: host python/shell/C gates",
    "now": 317
   },
   {
    "group": "ci",
-   "id": "sim|macOS simulator build + launch",
-   "label": "Simulator CI: macOS simulator build + launch",
-   "now": 313.0
-  },
-  {
-   "group": "ci",
    "id": "sim|Linux simulator build + launch",
    "label": "Simulator CI: Linux simulator build + launch",
-   "now": 288.5
+   "now": 307
   }
  ],
  "slowest_local": [
