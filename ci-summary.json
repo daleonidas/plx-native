@@ -99,7 +99,7 @@
    "test": "plxnative_modules::app::bridge::home_retention_tests::home_worker_results_cross_the_addressed_dispatcher_ingest_once"
   }
  ],
- "generated": "2026-11-24T10:52:26Z",
+ "generated": "2026-11-24T12:59:02Z",
  "metrics": [
   {
    "change30_pct": 158.9,
@@ -209,8 +209,8 @@
   {
    "change30_pct": 38.5,
    "change7_pct": -2.1,
-   "d30": 340,
-   "delta30": 131,
+   "d30": 340.0,
+   "delta30": 131.0,
    "delta7": -10,
    "group": "ci",
    "id": "pr_wait",
@@ -581,6 +581,11 @@
      "pr": 1534,
      "sha": "b3776fb44",
      "title": "Document LG SDK references for native media"
+    },
+    {
+     "pr": null,
+     "sha": "f68b7a318",
+     "title": "Add `pullfrog.yml` workflow"
     }
    ],
    "from": 196,
@@ -612,6 +617,11 @@
      "pr": 1534,
      "sha": "b3776fb44",
      "title": "Document LG SDK references for native media"
+    },
+    {
+     "pr": null,
+     "sha": "f68b7a318",
+     "title": "Add `pullfrog.yml` workflow"
     }
    ],
    "from": 229,
@@ -638,6 +648,11 @@
      "pr": 1534,
      "sha": "b3776fb44",
      "title": "Document LG SDK references for native media"
+    },
+    {
+     "pr": null,
+     "sha": "f68b7a318",
+     "title": "Add `pullfrog.yml` workflow"
     }
    ],
    "from": 201.5,
@@ -669,6 +684,11 @@
      "pr": 1534,
      "sha": "b3776fb44",
      "title": "Document LG SDK references for native media"
+    },
+    {
+     "pr": null,
+     "sha": "f68b7a318",
+     "title": "Add `pullfrog.yml` workflow"
     }
    ],
    "from": 2734.0,
@@ -695,6 +715,11 @@
      "pr": 1534,
      "sha": "b3776fb44",
      "title": "Document LG SDK references for native media"
+    },
+    {
+     "pr": null,
+     "sha": "f68b7a318",
+     "title": "Add `pullfrog.yml` workflow"
     }
    ],
    "from": 466,
